@@ -29,13 +29,13 @@
 	
 	<distributionManagement>
 		 <snapshotRepository>
-		    <id>nexus</id>
-		    <url>http://13.233.107.28:8081/repository/snapshots_maven_proj/</url>
+		    <id>nexus-cred</id>
+		    <url>http://3.108.195.204:8081/repository/maven-snapshot-nexus/</url>
 		 </snapshotRepository>
 		
 		<repository>
-		    <id>nexus</id>
-		    <url>http://13.233.107.28:8081/repository/releases_maven_proj/</url>
+		    <id>nexus-cred</id>
+		    <url>http://3.108.195.204:8081/repository/maven-release-nexus/</url>
 		</repository>
   	</distributionManagement>
 	
